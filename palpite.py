@@ -7,7 +7,7 @@ import numpy as np
 st.set_page_config(page_title="Número da Sorte", page_icon=':four_leaf_clover:')
 
 st.sidebar.write('Gostou ou se interessou?')
-st.sidebar.write('Acesse o repositório no [github.](https://github.com/mmart8997/house-prices-predictor)')
+st.sidebar.write('Acesse o repositório no [github.](https://github.com/mmart8997/probabilidade_palpite)')
 
 # cabeçalho
 st.write('### **Gerador de números** :four_leaf_clover:')
