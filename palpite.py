@@ -72,15 +72,15 @@ with col1:
     
     contem_zero = st.checkbox('Aposta aceita zero?')
     
-    
+
 with col2:
-    min = st.number_input(label='Qual é a aposta mínima?'
+    num = st.number_input(label='Quantos números vai apostar?'
                             ,min_value=1
                             ,max_value=99
                             )
 
 with col3:
-    num = st.number_input(label='Quantos números vai apostar?'
+    min = st.number_input(label='Qual é a aposta mínima?'
                             ,min_value=1
                             ,max_value=99
                             )
