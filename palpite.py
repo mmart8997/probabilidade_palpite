@@ -6,11 +6,14 @@ import numpy as np
 # configuração da página
 st.set_page_config(page_title="Número da Sorte", page_icon=':four_leaf_clover:')
 
+st.sidebar.write('Gostou ou se interessou?')
+st.sidebar.write('Acesse o repositório no [github.](https://github.com/mmart8997/house-prices-predictor)')
+
 # cabeçalho
 st.write('### **Gerador de números** :four_leaf_clover:')
 
 st.write("""
-*Este é um gerador de números para apostas na loteria. Informe os parâmetros do jogo e quantos números você deseja apostar que nós geramos um palpite e informamos qual é a probabilidade dos números serem sorteados.*
+*Este é um gerador de números para apostas na loteria. Informe os parâmetros do jogo, quantos números você deseja apostar e nós geraremos um palpite com a probabilidade dos números serem sorteados.*
 """)
 
 # função para gerar números aleatórios
